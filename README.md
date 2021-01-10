@@ -21,3 +21,12 @@ If order is not important, this can be achieved using Sets.
         {1, 2}
   ```
 ***
+# 2. Python change user agent in requests module
+call requests.url with headers info. You can set it to something like this:
+  Example:  
+  ```
+  headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+  response = requests.get(url, headers = headers)
+  
+  ```
+***
